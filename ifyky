@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+	     <meta charset="utf-8">
+	     <title>Navigation</title>
+         <link rel="icon" href="favicon.ico">
+		 <!---[if lte IE 7]>
+		 <script type="text/javascript"
+		 src="js/IE Drop-Down.js"></script>
+		 <![end if]-->
+		  <style>	
+         div#nav ul{
+		 padding: 2;
+		 margin:0;
+		 background-color: #282e28;
+         font-style: fantasy;
+      }
+   
+       body{
+        background-image: url('https://pyxis.nymag.com/v1/imgs/5c2/097/34e9d88e15f87b5bdbf988ec591d6f6b36-13-bonsai.jpg');
+      
+		 }
+
+		 div#nav ul li{
+		        float:left;
+				list-style:none;
+				padding:1;
+                 font-style: fantasy;
+		  }		  
+		  
+		  div#nav ul li a{
+		       padding:7px 15px;
+			   display:block;
+			   text-decoration:none;
+			   color: white;
+			   border-right: 2px solid #687d68;
+		  }
+		  
+		   div#nav ul ul {
+		      position:absolute;
+			  left:-999em;
+		  }
+		  
+		  div#nav ul li:hover ul,
+		  div#nav ul li.sfhover ul{
+			  left:auto;
+		  }
+		  
+		 div#nav ul li ul li{
+			  float:none;
+		  }
+		  
+		  div#nav ul li ul li a{
+			  border-right:none;
+		  }
+		  
+		  div#nav ul li a:hover,
+		  div#nav ul li:hover a,
+		  div#nav ul li.sfhover a{
+			  background-color: #687d68;
+		  }
+		  
+		  div#nav ul li:hover ul li a,
+		  div#nav ul li.sfhover ul li a{
+		  background-color: #687d68;
+		  }
+		  
+		  div#nav ul li:hover ul li a:hover,
+		  div#nav ul li.sfhover ul li a:hover{
+		  background-color: #687d68;
+		  }
+		  
+		  div#nav ul li.last a{
+		  border-right:none;
+		  }
+		  
+		  .clearfix:after{
+		   content:".";
+		   display:block;
+		   height:0;
+		   clear:both;
+		   visibility:hidden;
+		  }
+		  
+		  .clearfix{
+		  display:inline-block;
+		  }
+		  
+		  /* Hides from IE-Mac\*/
+		  
+		  *html.clearfix{
+		   height:1%;
+		   }
+		   
+		   .clearfix{
+		   display:block;
+		   }
+		   /* End hide from IE-Mac */
+		   
+		    /* Fix for sticky IE hover */
+			div#nav ul li:hover, div#nav ul li.sfhover{
+			position:static;
+			} 
+         
+      	
+		</style>
+    </head>
+
+    <body>
+	    <div id="nav">
+		    <ul class="clearfix">
+			      <li><a href="link">Different Species</a></li>
+                  <li><a href="link">Tree Care</a></li>
+                  <li><a href="link">Growing and Cultivating</a></li>
+			 
+			   </ul> 
+               
+
+	
+    
+    <div id="title">
+    <h1>Bonsai Trees</h1>
+    
+    </div>
+    </body>
+</html>
